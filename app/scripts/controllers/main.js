@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name snowCatsApp.controller:MainCtrl
+ * @name snowCats2App.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the snowCatsApp
+ * Controller of the snowCats2App
  */
-angular.module('snowCatsApp')
+angular.module('snowCats2App')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

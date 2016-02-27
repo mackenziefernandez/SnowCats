@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name snowCatsApp
+ * @name snowCats2App
  * @description
- * # snowCatsApp
+ * # snowCats2App
  *
  * Main module of the application.
  */
 angular
-  .module('snowCatsApp', [
+  .module('snowCats2App', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
