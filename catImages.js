@@ -2,6 +2,8 @@ var cats = ['put imageURL here'];
 var snowcats = [/
   'http://www.dumpaday.com/wp-content/uploads/2012/12/funny-cat-hates-snow-300x199.jpg',/
   'http://tse4.mm.bing.net/th?id=OIP.M5904f46c2eb99f7faf0957f480d7876do0&w=230&h=170&rs=1&pcl=dddddd&pid=1.1',/
+  'http://cl.jroo.me/z3/8/j/y/d/a.aaa-Cat-likes-winter-D.jpg',/ 
+  'https://s-media-cache-ak0.pinimg.com/564x/ab/96/10/ab9610158f4db5c88ea500f3e8612a6c.jpg',/
   'http://2.bp.blogspot.com/-B_1wK2hf7-Q/T9AkyOHyBdI/AAAAAAAABWE/UdCLWEifu7I/s1600/funny-pictures-kitten-wants-to-play-in-the-snow.jpg',/
   'http://www.funnyanimalsite.com/pictures/Snow_Cat363.jpg',/
   'http://1funny.com/wp-content/uploads/2011/01/snow-cat.jpg',/
