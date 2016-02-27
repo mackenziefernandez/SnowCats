@@ -1,6 +1,12 @@
-# SnowCats
-All the snow and all the cats
+# snow-cats
 
-* First shown pictures of cats
-* User selects a cat by pounding on a fruit
-* Result is what winter activity the user should do with that cat (provided with a helpful picture)
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.15.1.
+
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
