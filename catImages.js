@@ -1,2 +1,40 @@
-var cats = ['http://tse4.mm.bing.net/th?id=OIP.M5904f46c2eb99f7faf0957f480d7876do0&w=230&h=170&rs=1&pcl=dddddd&pid=1.1', 'http://2.bp.blogspot.com/-B_1wK2hf7-Q/T9AkyOHyBdI/AAAAAAAABWE/UdCLWEifu7I/s1600/funny-pictures-kitten-wants-to-play-in-the-snow.jpg'];
-var snowcats = ['put imageURL here'];
+var cats = ['put imageURL here'];
+var snowcats = [/
+  'http://www.dumpaday.com/wp-content/uploads/2012/12/funny-cat-hates-snow-300x199.jpg',/
+  'http://tse4.mm.bing.net/th?id=OIP.M5904f46c2eb99f7faf0957f480d7876do0&w=230&h=170&rs=1&pcl=dddddd&pid=1.1',/
+  'http://2.bp.blogspot.com/-B_1wK2hf7-Q/T9AkyOHyBdI/AAAAAAAABWE/UdCLWEifu7I/s1600/funny-pictures-kitten-wants-to-play-in-the-snow.jpg',/
+  'http://www.funnyanimalsite.com/pictures/Snow_Cat363.jpg',/
+  'http://1funny.com/wp-content/uploads/2011/01/snow-cat.jpg',/
+  'https://upload.wikimedia.org/wikipedia/commons/d/d7/Cat_dancing_in_the_snow-Tscherno.jpg',/
+  'http://cl.jroo.me/z3/A/_/v/e/a.baa-Amazing-Cat-Made-Of-snow.jpg',/
+  'http://www.warrenphotographic.co.uk/photography/bigs/01000-Cat-leaping-at-Robin-in-snow.jpg',/
+  'http://www.maniacworld.com/snow-cat.jpg',/
+  'http://www.warrenphotographic.co.uk/photography/bigs/11907-Norwegian-Forest-Cat-walking-on-snow.jpg',/
+  'http://bit.ly/1TFQDSk',/
+  'http://www.worldwideinterweb.com/images/blogphotos/Funny/Snow%20Memes/cats%20first%20snow.JPG',/
+  'http://www.tfhsbruins.com/wp-content/uploads/2013/02/Cat-in-the-Snow.jpg',/
+  'http://2.bp.blogspot.com/-pJdH_lpcUMg/U8mixq2uDII/AAAAAAAADcs/XZ4UiGPtSNs/s1600/IMG_7157_email.jpg',/
+  'http://taildom.com/blog/wp-content/uploads/2012/02/cat-snow.jpg',/
+  'http://portaldocat.com.br/gatos/wp-content/uploads/2015/03/gatos-neve-01.jpg',/
+  'http://cottagelife.com/wp-content/uploads/2014/12/calico-snow-kitty.jpg',/
+  'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBPxnMKevdvqb679sOZXRsMKA8yCjM59jF5JpJR-Y2e8l1I70dOw',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTovFiSmuTmMjm7W4q98F2tBfFz1STZZ-zcxmL5LQk_pyo3vynqUQ',/
+  'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRuDNoHu0FOP3QQ08m3tH-WmnQifi12_yf4KCwXlOGlYI1pAGxSJA',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQO2t_R4sEDhmDeI97zaJJhiz3qVY9jphANzBKAV2SXxSpsL5VQ',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWnv1qnAF3kDI8zbB0fJGvW-5ujYb1AJVhwBkmd5eDkd8Jd344vw',/
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWklCxTsSJa-OOszmIVoZes7MAt3jpT_NcV2icYu0rl1mTLmWT',/
+  'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQwf3LO5Q-vtxb2EnrB_olo85PWM3ZNtpfpnPlwhyVNnkLFvpJx',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-yDKsrocSn917xjUj_ahttE6iYx0El1wZHU0TFz-M-yUrXsjE',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQearrrcj3wmjtisHoCOJ_WMDnwGeIJYVjvcx12De6V3shSagHj',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS07W_3ayMDX2EKgJX9cLzuuDz1Z-TBAOeCIWji6Fmhn5CyuTLI',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVwstF2igGMmooRA30Ygr-MF_QHAYN53ghvI95wUxMjB2OhbT0bQ',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR3WgA_wNBG4LmO0E99NqEByf0UK0KmNMGHf4fZHnF-7b00bvFnrg',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQz3NQ7ObG_-L7QM41i_hqenZtdpidmOTbWsuE-NDTf4DGFbg6JSQ',/
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS_VV0hGXqKghWnKtMFBqnSkrXW89Q0VVJiFLAeZiOVKWCeb6-',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8DF08w9nyhKuyzRnQDOJnUhA1Ne5Zqj2mDHt9PNOQStkyoqDE',/
+  'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs51o8vGMY8J-jGulHiy9f5-IPvnAJ7goworlDJEq4ajqMGYR-rQ',/
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpul-yBfUbY5pB1kJYYImFvu5QJRnZsw1WPPJQfIsRoXnBcLsB',/
+  '',/
+  '',/
+  '',/
+];
